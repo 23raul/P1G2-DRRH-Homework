@@ -1,0 +1,50 @@
+JAVASCRIPT
+Uso: es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas
+desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos
+EJEMPLO:
+<a href="javascript:alert('Hola!');">Probar</a>
+FOR
+Uso: ermite repetir una instrucción o una instrucción compuesta un número especificado de veces hasta que 
+una condicion opcional sea false
+EJEMPLO:
+for (i = 0; i < TOTAL; i++)
+{
+    instrucciones;
+}
+WHILE
+Uso: para repetir un conjunto de operaciones hasta que se cumpla la condición especificada la misma
+que la utilizada en lenguajes de programación tales como C, C++ y Java
+EJEMPLO:
+I = 10;
+while(I > 0) {
+    Log("El valor de I es: " + I);
+    I = I - 1;
+}I = 10;
+while(I > 0) {
+IF
+Uso: se utiliza para evaluar una expresión condicional,si se cumple la condicion verdadera
+ejecutará un bloque de código si es falsa, es posible ejecutar otras sentencias
+la condición es una condición lógica  y se ejecutará si su valor es true
+EJEMPLO:
+if ( i > 0 )
+    y = x / i;
+else
+{
+    x = i;
+    y = f( x );
+}
+CASE
+Uso: selecciona una entre un conjunto de expresiones a evaluar y devuelve el valor de retorno de la 
+expresion selecionada como su valor
+EJEMPLO:CASE size
+  WHEN minimum + 0 THEN
+    SET description = 'small';
+  WHEN minimum + 1 THEN
+    SET description = 'medium';        
+  WHEN minimum + 2 THEN
+    SET description = 'large';
+    CALL handleLargeObject();
+  ELSE
+    SET description = 'unknown';
+    CALL handleError();
+END CASE;
