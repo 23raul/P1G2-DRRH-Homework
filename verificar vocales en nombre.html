@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vocales en Nombre</title>
+</head>
+<body>
+    <script>
+        function contarVocales() {
+            var nombre = document.getElementById("nombre").value;
+            var n = nombre.length;
+            var x = 1;
+            var v = 0;
+            
+            while (x <= n) {
+                switch (nombre.substring(x, x+1)) {
+                    case "a":
+                    case "A":
+                    case "e":
+                    case "E":
+                    case "i":
+                    case "I":
+                    case "o":
+                    case "O":
+                    case "u":
+                    case "U":
+                        v = v + 1;
+                        break;
+                    default:
+                        break;
+                }
+                x = x + 1;
+            }
+            
+            document.getElementById("resultado").innerHTML = "El nombre " + nombre + " tiene " + v + " vocales";
+        }
+    </script>
+    
+    <h1>Vocales en Nombre</h1>
+    <label for="nombre">Ingresa un nombre:</label>
+    <input type="text" id="nombre" name="nombre">
+    <button onclick="contarVocales()">Contar Vocales</button>
+    <p id="resultado"></p>
+</body>
+</html>
