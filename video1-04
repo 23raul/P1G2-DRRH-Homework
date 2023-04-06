@@ -1,10 +1,10 @@
-var contador = Ø;
+var contador = 0;
 /*
 while(true){
     contador++;
 
     console.log(contador);
-    if(contador >= 1Ø){
+    if(contador >= 10){
       break;
     }
   }
@@ -14,7 +14,7 @@ do{
     contador++;
 
     console.log(contador);
-    if(contador >= 1Ø){
+    if(contador >= 10){
        break;
     }
 }while(false);
