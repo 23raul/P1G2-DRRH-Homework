@@ -1,5 +1,5 @@
 
-for(var i = Ø;i<10;i++){
+for(var i = 0;i<10;i++){
    console.log(i)
 }
 
@@ -11,7 +11,7 @@ while(true){
 
 }
 
-for(var i = Ø;i<10;i++){
-  if (i%2 !== Ø){ continue; }
+for(var i = 0;i<10;i++){
+  if (i%2 !== 0){ continue; }
   console.log(i);
 }
