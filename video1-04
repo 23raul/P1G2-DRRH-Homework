@@ -1,0 +1,25 @@
+var contador = Ø;
+/*
+while(true){
+    contador++;
+
+    console.log(contador);
+    if(contador >= 1Ø){
+      break;
+    }
+  }
+*/
+
+do{
+    contador++;
+
+    console.log(contador);
+    if(contador >= 1Ø){
+       break;
+    }
+}while(false);
+
+// break 
+//continue
+
+//asdasd
