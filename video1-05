@@ -1,0 +1,17 @@
+
+for(var i = Ø;i<10;i++){
+   console.log(i)
+}
+
+for(;;){
+   break;
+ }
+
+while(true){
+
+}
+
+for(var i = Ø;i<10;i++){
+  if (i%2 !== Ø){ continue; }
+  console.log(i);
+}
