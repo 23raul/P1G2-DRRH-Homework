@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Titulo</title>
+</head>
+<body>
+<p>Tarea codigo de programacion - UPC</p>
+<a>Operaciones  Logicas</a>
+<button onclick="Ejerciciouno()" >Ejerciciouno</button>
+
+<a>Operaciones  Logicas</a>
+<button onclick="Ejerciciodos()" >Ejerciciodos</button>
+
+<a>Operaciones  Logicas</a>
+<button onclick="Ejerciciotres()" >Ejerciciotres</button>
+
+<a>Operaciones  Logicas</a>
+<button onclick="Ejerciciocuatro()" >Ejerciciocuatro</button>
+
+<script>
+//codigo de programacion - INICIA
+function Ejerciciouno(){
+    if (  (  (5 >= 5) == (9 < 10)  ) || (  (10 >= 10) == false)  ){
+       alert("TRUE")
+    }else{
+       alert("FALSE") 
+    }
+}
+
+function Ejerciciodos(){
+    if (  (  (9 < 5) != true) || (false || (5 <= 9)  )  ){
+       alert("TRUE")
+    }else{
+       alert("FALSE") 
+    }
+}
+
+function Ejerciciotres(){
+    if (  (  (  (7 <= 7) == true) || (false == true)  )|| !(7 > 7)  ){
+       alert("TRUE")
+    }else{
+       alert("FALSE") 
+    }
+}
+
+function Ejerciciocuatro(){
+    if (  (  (true || false) || (false)  ) != ((false && false) != (true)  )  ){
+       alert("TRUE")
+    }else{
+       alert("FALSE") 
+    }
+}
+
+//codigo de programacion - TERMINA
+
+</script>
+</body>
+</html>
