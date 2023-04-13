@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Avance 7 -UPC</h1>
+<hr>
+<p>Factorial de un Numero</p>
+<button onclick="FactorialNumero(1)">FactorialNumero</button>
+
+<p>operaciiones logicas #1</p>
+<button onclick="Ejerciciouno()">Ejerciciouno</button>
+
+<p>operaciiones logicas #2</p>
+<button onclick="Ejerciciodos()">Ejerciciodos</button>
+
+<p>operaciiones logicas #3</p>
+<button onclick="Ejerciciotres()">Ejerciciotres</button>
+ 
+<p>operaciiones logicas #4</p>
+<button onclick="Ejerciciocuatro()">Ejerciciocuatro</button>
+
+
+
+<script>
+//codigo de programacion - INICIO
+//CONDICIONALES Anidadas 
+function CondicionalAnidadas(){
+    if(5 >= 5) != (9 < 10){
+        if(10 > 10) == (false){
+            alert("TRUE")
+        }else{
+            alert("false")
+                
+            
+        }
+    }
+}    
+
+
+
+
+//CONDICIONALES COMPUESTAS &&
+function CondicionalCompuestas_Usando(){
+    if((5>9)&&(7!=5)){
+       alert("TRUE")
+    }else{
+       alert("FALSE")
+    }
+}
+
+//CONDICIONALES Anidadas 
+function CondicionalAnidadas(){
+    if(5>9){
+        if(7!=5){
+            alert("TRUE")
+        }else{
+            alert("FALSE")
+        }
+    }else{
+        if(7!=5){
+           alert("TRUE")
+        }else{
+           alert("FALSE")
+        }
+    }
+
+}
+
+
+
+//(((5 >= 5) != (9 < 10)) || ((10 > 10) == false))
+function Ejerciciouno(){
+    if (  (  (5 >= 5) != (9 < 10)  ) || (  (10 > 10) == false)  ) {
+      alert("TRUE")
+    }else{
+       alert("FALSE")
+    }
+}
+
+//(((9 < 5) == true) || (! false || (5 == 9)))
+function Ejerciciodos(){    
+    if(  (  (9 < 5) == true) || (! false || (5 == 9)  )  ){
+      alert("TRUE")
+    }else{
+      alert("FALSE")
+    }
+}
+
+
+//((((7 >= 7) == true) || (false == true))|| !(7 > 7))
+function Ejerciciotres(){
+    if(  (  (  (7 >= 7) == true) || (false == true)  )|| !(7 > 7)  ){
+      alert("TRUE")
+    }else{
+      alert("FALSE")
+    }
+}
+  
+
+//(((true || ! false) && (false)) != ((false || false) != (true)))
+function Ejerciciocuatro(){
+    if(  (  (true || ! false) && (false)  ) != (  (false || false) != (true)  )  ){
+       alert("TRUE")
+    }else{
+       alert("FALSE")
+    }
+}
+  
+
+
+
+
+
+
+//Codigo de programacion . INICIO
+function SumarFactorialAyB(){
+    var numeroA = 5 // mensaje = 120
+    var numeroB = 2 // mensaje = 120
+
+    var resultadoA = FactorialNumero(numeroA)
+    var resultadoB = FactorialNumero(numeroB)
+    
+    var resultadoFinal = resultadoA +  resultadoB
+    alert(resultadoFinal)//mensaje = 240
+}
+
+function FactorialNumero(numero){
+    //no hay (var numero) porque  es un parametro de la funcion
+    var i = 1
+    var resultado = 1
+    while (i <= numero){
+        resultado = resultado * i
+        i = 1 + 1
+    }
+    alert(reultado)
+    return resultado
+}
+
+//Codigo de programacion - FIN
+</script>
+
+</body>
+</html>
