@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Archivo css</title>
+</head>
+<body style="background-color: aqua;">
+
+
+<a  href="htps://www.google.com/"
+    target="_blank"
+    >
+    Ir a Google
+</a>
+
+<p  style="color:red ; background-color: yellow ;"
+    >
+
+<ul>
+    <li>Item Lunes</li>
+    <li>Item Martes</li>
+    <li>Item Miercoles</li>
+</ul>
+
+<ol style="color:green">
+    <li>Item</li>
+    <li style="color:red">Item</li>
+    <li>Item</li>
+</ol>
+
+<br>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/imSefM4GPpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
