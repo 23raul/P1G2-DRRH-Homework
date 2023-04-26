@@ -1,0 +1,31 @@
+
+.h-16{
+    height: 100px;
+}
+
+
+.w-25{
+    width: 25%;
+}
+
+.fondo-celeste{
+    background-color: #0091ff;
+} 
+
+.w-100{
+    width: 100%;
+}
+
+.h-button{
+    height: 100px !important;
+}
+
+.w-button{
+    width: 100px !important;
+}
+
+.text-input{
+    font-size: 50px;
+    color:#081824;
+    text-align: right;
+}
